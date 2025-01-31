@@ -44,12 +44,13 @@ body{
 .corpo{
     color: #444;
     font-size: 14px;
-    opacity: 0;
     height: 0;
+    opacity: 0;
 }
 
 .corpo.ativo{
     height: 100%;
     opacity: 1;
     padding: 1em;
+    transition: all ease 0.5s;
 }
