@@ -37,8 +37,10 @@ body{
 .cabecalho span{
     max-width: 100%;
     white-space: nowrap;
+    /* white-space: nowrap;  Impede a quebra de linha.*/
     overflow: hidden;
     text-overflow: ellipsis;
+    /* text-overflow: ellipsis;   Esconde o conteúdo que ultrapassa os limites do elemento.*/
 }
 
 .corpo{
